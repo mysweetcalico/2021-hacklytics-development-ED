@@ -435,7 +435,7 @@ img.a {
   overflow: hidden;
   padding: 0 2em 0em 0;
   */
-  max-height: 13em;
+  max-height: 5em;
   float: left;
   overflow: hidden;
   padding: 0 2em 2em 0;
@@ -517,138 +517,14 @@ img.a:hover {
 .Hacklytics {
     display: flex;
     flex-direction: row;
-    margin: 3% 0;
+    align-items: center;
 }
 
 .DSGT {
     display: flex;
     flex-direction: row;
-    margin: 3% 0;
-}
-
-.schedule-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-}
-
-.schedule-nav > div {
-    flex: 0 1 auto;
-    border: 1px solid #ECAE58;
-    width: 200px;
-    text-align: center;
-    border-radius: 25px;
-    padding: 18px 0;
-    text-transform: regular;
-    font-size: 1.5em;
-    font-weight: 600;
-    line-height: 1.35em;
-    font-family: 'Red Hat Text';
-}
-
-.schedule-nav > div:hover {
-    cursor: pointer;
-}
-
-#friday_button {
-    box-shadow: 0px 0px 10px #ECAE58;
-}
-
-#saturday_button {
-    box-shadow: 0px 0px 0px #ECAE58;
-}
-
-#sunday_button {
-    box-shadow: 0px 0px 0px #ECAE58;
-}
-
-.friday_schedule, .saturday_schedule, .sunday_schedule {
-    margin: 50px 0px;
-    font-size: 1.3em;
-    font-weight: 400;
-    line-height: 1.35em;
-    font-family: 'Open Sans';   
-}
-
-.friday_schedule {
-    display: block;
-}
-
-.saturday_schedule {
-    display: None;
-}
-
-.sunday_schedule {
-    display: None;
-}
-
-table td {
-    padding: 0.5em 5em 0.5em 0;
-    white-space: nowrap;
-}
-
-.timezone-notice {
-    font-style: italic;
-    font-size: 0.8em;
-    font-weight: 400;
-    line-height: 1.2em;
-    font-family: 'Open Sans';
-}
-
-.challenges {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.challenges > div {
-    flex: 0 1 auto;
-    max-width: 38%;
-    height: 20em;
-    border: 1px solid #20A39e;
-    margin: 1em 1em;
-    border-radius: 25px;
-    box-shadow: 2px 2px 5px #20A39e;
-    /* Content layout */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em 1em;
-    /* Font layout */
-    text-transform: regular;
-    font-size: 1.25em;
-    font-weight: 600;
-    line-height: 1.35em;
-    font-family: 'Red Hat Text';
-    text-align: center;
-}
-
-.icon {
-    width: 3.0em;
-}
-
-.sponsors > div {
-    padding: 1em 0;
-}
-
-.anthem-icon, .citadel-icon {
-    width: 10.0em;
-}
-
-.scheller-icon, .createX-icon {
-    height: 2.5em;
-}
-
-.challenge-description {
-    text-transform: regular;
-    font-size: 1.0em;
-    font-weight: 400;
-    line-height: 1.2em;
-    font-family: 'Open Sans';
+    margin-top: 3em;
 }
 
 .sponsor-list {
@@ -656,40 +532,6 @@ table td {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-#dataset-table {
-    background-color: #ECE9E1;
-    color: #C74138;
-    border-radius: 20px;
-    margin-bottom: 2em;
-}
-
-#dataset-table th {
-    border: 1px solid #C74138;
-    font-family: "Red Hat Text";
-    font-weight: 600;
-    padding: 1em 1em;
-    font-size: 1.3em;
-    line-height: 1.35em;
-}
-
-#dataset-table td {
-    border: 1px solid #C74138;
-    padding: 0.5em 1em;
-    font-family: "Open Sans";
-    font-size: 1.0em;
-    line-height: 1.5em;
-    height: 4em;
-    vertical-align: middle;
-}
-
-#dataset-table th:nth-child(3), #dataset-table td:nth-child(3) {
-    white-space: pre-wrap;
-}
-
-#dataset-table tr:hover {
-    background-color: #cebab9;
 }
 
 @media only screen and (max-device-width: 1024px) {

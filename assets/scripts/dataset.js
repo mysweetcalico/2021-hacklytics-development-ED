@@ -89,9 +89,9 @@ function dataset_populate() {
         link.href = data["link"];
         link.target = "_blank";
         link.style.textDecoration = "none";
+        link.style.color = "inherit";
         link.style.fontFamily = "Red Hat Text";
-        link.style.fontWeight = "bolder";
-        link.style.color = "#C74138";
+        link.style.fontWeight = "600";
         name_cell.appendChild(link);
         row.appendChild(name_cell);
         // Create the 2nd cell: type of the data
