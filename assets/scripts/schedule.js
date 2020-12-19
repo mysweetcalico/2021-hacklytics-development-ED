@@ -36,12 +36,21 @@ function schedule_populate() {
     // populate friday schedule
     for (item in friday) {
         var row = document.createElement("tr");
+        row.classList.add("row");
         var leftCell = document.createElement("td");
         var leftNode = document.createTextNode(item);
         leftCell.appendChild(leftNode);
+        leftCell.classList.add("col-12");
+        leftCell.classList.add("col-md-4");
+        leftCell.classList.add("m-md-2");
         var rightCell = document.createElement("td");
         var rightNode = document.createTextNode(friday[item]);
         rightCell.appendChild(rightNode);
+        rightCell.classList.add("col-12");
+        rightCell.classList.add("col-md-7");
+        rightCell.classList.add("ms-4")
+        rightCell.classList.add("m-md-2");
+        rightCell.style.whiteSpace = "pre-wrap";
         row.appendChild(leftCell);
         row.appendChild(rightCell);
         friday_schedule.appendChild(row);
@@ -49,12 +58,21 @@ function schedule_populate() {
     // populate saturday schedule
     for (item in saturday) {
         var row = document.createElement("tr");
+        row.classList.add("row");
         var leftCell = document.createElement("td");
         var leftNode = document.createTextNode(item);
         leftCell.appendChild(leftNode);
+        leftCell.classList.add("col-12");
+        leftCell.classList.add("col-md-4");
+        leftCell.classList.add("m-md-2");
         var rightCell = document.createElement("td");
         var rightNode = document.createTextNode(saturday[item]);
         rightCell.appendChild(rightNode);
+        rightCell.classList.add("col-12");
+        rightCell.classList.add("col-md-7");
+        rightCell.classList.add("ms-4")
+        rightCell.classList.add("m-md-2");
+        rightCell.style.whiteSpace = "pre-wrap";
         row.appendChild(leftCell);
         row.appendChild(rightCell);
         saturday_schedule.appendChild(row);
@@ -62,12 +80,21 @@ function schedule_populate() {
     // populate sunday schedule
     for (item in sunday) {
         var row = document.createElement("tr");
+        row.classList.add("row");
         var leftCell = document.createElement("td");
         var leftNode = document.createTextNode(item);
         leftCell.appendChild(leftNode);
+        leftCell.classList.add("col-12");
+        leftCell.classList.add("col-md-4");
+        leftCell.classList.add("m-md-2");
         var rightCell = document.createElement("td");
         var rightNode = document.createTextNode(sunday[item]);
         rightCell.appendChild(rightNode);
+        rightCell.classList.add("col-12");
+        rightCell.classList.add("col-md-7");
+        rightCell.classList.add("ms-4")
+        rightCell.classList.add("m-md-2");
+        rightCell.style.whiteSpace = "pre-wrap";
         row.appendChild(leftCell);
         row.appendChild(rightCell);
         sunday_schedule.appendChild(row);

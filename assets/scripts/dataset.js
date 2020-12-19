@@ -81,6 +81,7 @@ function dataset_populate() {
     for (data_name in data_set) {
         var data = data_set[data_name];
         var row = document.createElement("tr");
+        row.classList.add("row");
         // Create the 1st cell: name of the data and embeded link
         var name_cell = document.createElement("td");
         var link = document.createElement("a");
@@ -93,16 +94,19 @@ function dataset_populate() {
         link.style.fontFamily = "Red Hat Text";
         link.style.fontWeight = "600";
         name_cell.appendChild(link);
+        name_cell.classList.add("col-12", "col-md-3")
         row.appendChild(name_cell);
         // Create the 2nd cell: type of the data
         var type_cell = document.createElement("td");
         var type_text = document.createTextNode(data["type"]);
         type_cell.appendChild(type_text);
+        type_cell.classList.add("col-12", "col-md-1", "d-none", "d-md-table-cell");
         row.appendChild(type_cell);
         // Create the 3rd cell: description of the data
         var description_cell = document.createElement("td");
         var description_text = document.createTextNode(data["description"]);
         description_cell.appendChild(description_text);
+        description_cell.classList.add("col-12", "col-md-8", "d-none", "d-md-table-cell");
         row.appendChild(description_cell);
         // Append the row to the dataset_table
         dataset_table.appendChild(row);

@@ -1,11 +1,41 @@
-.header {
-    margin-top: 6em;
-    margin-bottom: 3em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.participant-page {
+    padding-top: 7em;
+}
+
+.navbar-custom {
+    padding: 0.4em 1em;
+    background-color: #ECE9E1;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #20A39E;
+    opacity: 0.8;
     font-family: "Red Hat Text";
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #20A39E;
+    opacity: 1;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(32,163,158, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-custom .navbar-toggler {
+    border-color: #20A39E;
+}
+
+.header {
+    font-family: "Red Hat Text";
+}
+
+.header h1 {
+    color: #ECAE58;
+    padding: 1em;
+    text-align: center;
 }
 
 .schedule-nav {
@@ -84,16 +114,17 @@ table td {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
-.challenges > div {
+.anthem, .citadel, .scheller, .createX {
     flex: 0 1 auto;
-    max-width: 38%;
+    max-width: 14em;
     height: 20em;
-    border: 1px solid #20A39e;
-    margin: 1em 1em;
+    border: 2px solid #20A39e;
+    margin: 1em 0.2em;
     border-radius: 25px;
-    box-shadow: 2px 2px 5px #20A39e;
     /* Content layout */
     display: flex;
     flex-direction: column;
@@ -141,7 +172,6 @@ table td {
     font-size: 0.9em;
     font-family: "Open Sans";
     line-height: 1.35em;
-    box-shadow: 0 0 20px #C74138;
 }
 
 #dataset-table th {
@@ -167,8 +197,6 @@ table td {
 
 #dataset-table td {
     padding: 0.5em 1em;
-    height: 4em;
-    vertical-align: middle;
 }
 
 #dataset-table th:nth-child(3), #dataset-table td:nth-child(3) {
