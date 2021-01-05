@@ -25,39 +25,46 @@
     <script src="assets/scripts/dataset.js"></script>
 </head>
 
-<body class="participant-page">
-    <div class="fixed-top row">
-        <nav class="navbar navbar-custom navbar-expand-md col-8 col-md-11">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/hacklytics/square-logo.png" width="62" height="62">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbar-content">
-                    <div class="navbar-nav">
-                        <div class="nav-item mx-md-4"><a class="nav-link" href="#Schedule">Schedule</a></div>
-                        <div class="nav-item mx-md-4"><a class="nav-link" href="#Challenges">Challenges</a></div>
-                        <div class="nav-item mx-md-4"><a class="nav-link" href="#Data-sets">Data Sets</a></div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <div class="col-4 col-md-1" style="background-color: #ECE9E1">
-            <a id="mlh-trust-badge" href="https://mlh.io/seasons/2021/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=black" target="_blank">
-                <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-black.svg" alt="Major League Hacking 2021 Hackathon Season" style="width:60%">
-            </a>
-        </div>
+<body onload="mobileCheck()">
+    <script src="assets/scripts/mobile.js">
+    </script>
+    <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/2021/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=black" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-black.svg" alt="Major League Hacking 2021 Hackathon Season" style="width:100%"></a>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="logo"><img class="navb" src="assets/images/hacklytics/square-logo.png" width="62" height="62"></a>
+        <a href="#Schedule" class="text">Schedule</a>
+        <a href="#Challenges" class="text">Challenges</a>
+        <a href="#Data-sets" class="text">Data Sets</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
 
-    <div class="container header pt-5 pt-lg-3">
-        <div class="row justify-content-evenly">
-            <img class="col-9 col-md-4" src="assets/images/hacklytics/square-logo.png" height="60%" weight="60%">
-        </div>
-        <div class="row justify-content-evenly">
-            <h1 class="col-12 col-md-5">Participant Portal</h1>
-        </div>
+    <div id="desktopDIV">
+      <img class="desktop" src="assets/images/hacklytics/placeholderzoom.PNG">
+      <div class="form-group">
+        <h1>Building a Data-Driven World</h1>
+        <br>
+        <h3>February 5-7</h3>
+        <br>
+        <br>
+        <a href="#Schedule" class="button">Schedule</a>
+        <a href="#Challenges" class="button">Challenges</a>
+        <a href="#Data-sets" class="button">Data Sets</a>
+        <p></p>
+      </div>
+    </div>
+    <div class="mobile" id="mobileDIV">
+      <div class="vertical-center">
+        <img class="mobile" src="assets/images/hacklytics/placeholderzoom.PNG">
+        <h1>Building a Data-Driven World</h1>
+        <br>
+        <h3>February 5-7</h3>
+        <br>
+        <br>
+        <a href="#Schedule" class="button">Schedule</a>
+        <a href="#Challenges" class="button">Challenges</a>
+        <a href="#Data-sets" class="button">Data Sets</a>
+      </div>
     </div>
 
     <div id="Schedule" style="position:relative">
@@ -134,7 +141,7 @@
                 <div><img class="scheller-icon" src="assets/images/sponsors/scheller.png"></div>
             </div>
         </div>
-        <div class="createX">
+        <div class="gtAthletics">
             <div>
                 <div><img class="icon" src="assets/images/hacklytics/sports_icon.png"></div>
                 <span>Sports</span>
@@ -142,7 +149,7 @@
             <div class="challenge-description">Challenge description: Coming soon</div>
             <div class="sponsors">
                 <span>Sponsored By</span>
-                <div><img class="createX-icon" src="assets/images/sponsors/gtCreateX.png"></div>
+                <div><img class="gtAthletics-icon" src="assets/images/sponsors/gtAthletics.png"></div>
             </div>
         </div>
     </div>

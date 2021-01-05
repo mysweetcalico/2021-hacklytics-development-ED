@@ -4,27 +4,27 @@ const friday = {
     "6:30 PM": "Hacking Begins",
     "7:00 PM - 8:30 PM": "Sponsor Fair",
     "7:00 PM - 8:30 PM": "Team Building",
-    "8:30 PM - 9:15 PM": "Workshop 1: Essential Data Science Skills",
-    "9:30 PM - 10:30 PM": "Activity 1: Hosted on Discord, TBD",
+    "8:30 PM - 9:15 PM": "Essential Data Science Skills",
+    "9:30 PM - 10:30 PM": "Game Night, Hosted on Discord, TBD",
 }
 
 const saturday = {
-    "1:45 PM - 2:30 PM": "Workshop 2: (Advanced) CV Workshop",
-    "1:45 PM - 2:30 PM": "Workshop 2: (Beginner) Data Visualization Workshop",
-    "2:45 PM - 3:30 PM": "Workshop 3: (Advanced) Machine Learning",
-    "2:45 PM - 3:30 PM": "Workshop 3: (Beginner) Intro to Machine Learning", 
-    "3:00 PM - 3:30 PM": "Activity 2: MLH Activity",
-    "4:00 PM - 4:45 PM": "Speaker 1: Igor Jablokov from Pryon",
-    "5:00 PM - 5:30 PM": "Activity 3: Among us -> Something with company reps/mentors/participants",
-    "8:00 PM - 8:45 PM": "Speaker 2: Keith Werle(?)",
-    "9:00 PM - 9:45 PM": "Workshop 4: (Beginner) Intro to Cloud Computing",
-    "10:00 PM - 10:45 PM": "Workshop 5: (Advanced) Deep Learning",
+    "1:45 PM - 2:30 PM": "CV Workshop",
+    "1:45 PM - 2:30 PM": "Data Visualization Workshop",
+    "2:45 PM - 3:30 PM": "Machine Learning",
+    "2:45 PM - 3:30 PM": "Intro to Machine Learning", 
+    "3:00 PM - 3:30 PM": "MLH Activity",
+    "4:00 PM - 4:45 PM": "Igor Jablokov from Pryon",
+    "5:00 PM - 5:30 PM": "Activities with company reps/mentors/participants",
+    "8:00 PM - 8:45 PM": "Keith Werle",
+    "9:00 PM - 9:45 PM": "Intro to Cloud Computing",
+    "10:00 PM - 10:45 PM": "Deep Learning",
 }
 
 const sunday = {
-    "12:00 PM - 12:45 PM": "Speaker 3: Super Cool Data Science Startup founder",
-    "1:00 PM - 1:30 PM": "Activity 4: Fireside Chat and Origami",
-    "3:00 PM - 3:30 PM": "Workshop 6: Pitching Your Project Style",
+    "12:00 PM - 12:45 PM": "Super Cool Data Science Startup founder",
+    "1:00 PM - 1:30 PM": "Fireside Chat and Origami",
+    "3:00 PM - 3:30 PM": "Pitching Your Project Style",
     "3:00 PM": "Hacking Ends",
     "3:30 PM - 5:00 PM": "Expo & Judging",
 }

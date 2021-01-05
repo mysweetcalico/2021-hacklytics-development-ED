@@ -24,7 +24,7 @@ const data_set = {
         "description": "Kaggle dataset listing various fake vs real news articles. Train a classifier to determine what’s real and what’s not!",
         "link": "https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset?select=Fake.csv"
     },
-    "IMBD": {
+    "IMDB": {
         "type": "Text",
         "description": "Movie review datasets. Apart from the training and test review examples, there is further unlabeled data for use as well. Raw text and preprocessed bag of words formats have also been included.",
         "link": "http://ai.stanford.edu/~amaas/data/sentiment/"
